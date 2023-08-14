@@ -4,7 +4,7 @@ import CloseModal from "@/components/CloseModal";
 import SignUp from "@/components/SignUp";
 import { usePathname } from "next/navigation";
 
-const page = () => {
+const Page = () => {
   const pathname = usePathname();
   return (
     <>
@@ -25,4 +25,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -4,7 +4,7 @@ import CloseModal from "@/components/CloseModal";
 import SignIn from "@/components/SignIn";
 import { usePathname } from "next/navigation";
 
-const page = () => {
+const Page = () => {
   const pathname = usePathname();
 
   return (
@@ -26,4 +26,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
